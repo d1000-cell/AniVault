@@ -1,12 +1,12 @@
-version: 1.0.0
-services:
-  - type: web
-    name: anivault-worker
-    env: node
-    plan: free
-    buildCommand: npm install
-    startCommand: npm start
-    autoDeploy: true
-    envVars:
-      - key: NODE_VERSION
-        value: 24
+"version": 1.0.0
+"services":
+  - "type": web
+    "name": anivault-worker
+    "env": node
+    "plan": free
+    "buildCommand": npm install
+    "startCommand": npm start
+    "autoDeploy": true
+    "envVars":
+      - "key": NODE_VERSION
+        "value": 24
